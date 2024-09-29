@@ -1,6 +1,3 @@
-
-
-
 const myArr = [1, 5, 10, 15];
 
 function myCustomMap(cb) {
@@ -18,7 +15,6 @@ Array.prototype.map = myCustomMap;
 const newMapArr = myArr.map(item => item + 50);
 
 console.log("newMapArr", newMapArr);
-
 
 function myCustomFilter(cb) {
     const newArr = [];
